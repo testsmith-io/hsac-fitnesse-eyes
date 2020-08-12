@@ -90,7 +90,7 @@ This project brings Applitools Eyes to FitNesse HSAC.
 
 In the setup you need to set the key, like this:
 
-bc.. |eyes set value                  |!-zir0ZyKljiY00oHjXjfuxzm2eLr1AV5MC6l84BEKY3Q110-!|for api key|
+bc.. |eyes set value                  |!-key-!|for api key|
 
 A testscript can look like this:
 
