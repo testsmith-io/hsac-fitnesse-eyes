@@ -4,7 +4,7 @@
 
     <groupId>io.testsmith</groupId>
     <artifactId>hsac-fitnesse-eyes</artifactId>
-    <version>0.5-SNAPSHOT</version>
+    <version>0.5</version>
     <url>https://github.com/testsmith-io/hsac-fitnesse-eyes</url>
     <name>Fixtures to work with Applitools Eyes in FitNesse</name>
     <description>Fixtures to work with Applitools Eyes in FitNesse</description>
@@ -31,7 +31,7 @@
         <connection>scm:git:git@github.com:testsmith-io/hsac-fitnesse-eyes.git</connection>
         <developerConnection>scm:git:git@github.com:testsmith-io/hsac-fitnesse-eyes.git</developerConnection>
         <url>https://github.com/testsmith-io/hsac-fitnesse-eyes</url>
-        <tag>hsac-fitnesse-eyes-0.1</tag>
+        <tag>hsac-fitnesse-eyes-0.5</tag>
     </scm>
 
 
