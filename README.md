@@ -5,6 +5,8 @@ This project brings Applitools Eyes to FitNesse HSAC.
 
 ## Available commands
 
+Keyword | 
+------------ | 
 |eyes open_+appname+_ _+testname+_                           |
 |eyes set value _+value+_ for agent id                                                              |
 |eyes set value _+value+_ for app name                                                              |
@@ -90,14 +92,17 @@ This project brings Applitools Eyes to FitNesse HSAC.
 
 In the setup you need to set the key, like this:
 
-bc.. |eyes set value                  |!-key-!|for api key|
+~~~
+|eyes set value|!-key-!|for api key|
+~~~
 
 A testscript can look like this:
 
-bc..
+~~~
 |script                                      |
 |open      |${URL}                           |
 |eyes open;|Hackathon app 0.1|Form components|
 |eyes check window                           |
 |eyes close async                            |
-|eyes get results            |
+|eyes get results                            |
+~~~
